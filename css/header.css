@@ -1,5 +1,13 @@
 @media (min-width: 320px) {
 
+    .text-gold {
+        background: linear-gradient(180deg, #885B41 0%, #B56A1F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
     header {
         width: 288px;
         height: 607px;
@@ -171,7 +179,60 @@
         line-height: 16px;
     }
 
-    .text-gold {
+    .actual-price__new-price {
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    /*-----------------------------------------------------------------------------header gallery----------------------------*/
+    .header-gallery__item {
+        padding-top: 76px;
+    }
+
+    .header-gallery__title {
+        margin: 0;
+        padding-bottom: 10px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        color: #F8F8F8;
+    }
+
+    .header-gallery__paragraph {
+        margin: 0;
+        padding-bottom: 30px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #F8F8F8;
+    }
+
+    .actual-price__wrapper {
+        display: flex;
+        padding-bottom: 30px;
+        position: relative;
+    }
+
+    .actual-price__mass-food,
+    .actual-price__old-price {
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
         background: linear-gradient(180deg, #885B41 0%, #B56A1F 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -179,4 +240,68 @@
         text-fill-color: transparent;
     }
 
+    .actual-price__new-price {
+        margin: 0;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 100%;
+        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .actual-price__mass-food {
+        padding-left: 20px;
+    }
+
+    .actual-price__old-price {
+        position: absolute;
+        bottom: 36px;
+        right: 101px;
+    }
+
+    .actual-price__old-price::after {
+        content: "";
+        display: block;
+        width: 55px;
+        height: 2px;
+        position: absolute;
+        top: 11px;
+        left: -6px;
+        background: linear-gradient(90deg, #563C2D 0%, #6C4217 100%);
+        transform: rotate(-16deg);
+    }
+
+    .header-gallery__btn-wrapper {
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-gallery__btn-first,
+    .header-gallery__btn-second,
+    .header-gallery__btn-third {
+        display: block;
+        width: 8px;
+        height: 8px;
+        border: none;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #563C2D 0%, #6C4217 100%);
+        cursor: pointer;
+    }
+
+    .header-gallery__btn--active {
+        background: linear-gradient(90deg, #FBBF0E -0.21%, #D99813 62.08%, #C58216 99.79%);
+
+
+    }
+
+    .header-gallery__btn-first,
+    .header-gallery__btn-second {
+        margin-right: 8px;
+    }
 }

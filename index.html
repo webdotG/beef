@@ -14,7 +14,7 @@
     <nav class="header-nav">
         <img src="img/Logo__mobile.png" width="103" height="38" alt="beefy coin logo">
         <button class="burger-btn"><span class="burger-btn__line"></span></button>
-        <div class="header-nav__mobile-wrapper">
+        <div class="header-nav__mobile-wrapper display-none">
             <ul class="header-nav__list">
                 <h2 class="visually-hidden">Навигация по сайту</h2>
                 <li class="header-nav__item"><a class="header-nav__link" href="#">О нас</a></li>
@@ -23,10 +23,16 @@
             </ul>
             <ul class="header-social__list">
                 <h2 class="visually-hidden">Социальные сети</h2>
-                <li class="header-social__item"><a class="header-social__link header-social__link--job" href="" >Работа у нас</a></li>
-                <li class="header-social__item"><a class="header-social__link header-social__link--shwarma" href="#"><img class="header-social__shwarma" src="img/header-social__link-shwarma.png" alt="shwarma logo"></a></li>
-                <li class="header-social__item"><a class="header-social__link header-social__link--inst" href="#"><img class="header-social__inst" src="img/header-social__link-inst.png" alt="inst logo"></a></li>
-                <li class="header-social__item"><a class="header-social__link header-social__link--vk" href="#"><img class="header-social__vk" src="img/header-social__link-vk.png" alt="vk logo"></a></li>
+                <li class="header-social__item"><a class="header-social__link header-social__link--job" href="">Работа у
+                    нас</a></li>
+                <li class="header-social__item"><a class="header-social__link header-social__link--shwarma"
+                                                   href="#"><img class="header-social__shwarma"
+                                                                 src="img/header-social__link-shwarma.png"
+                                                                 alt="shwarma logo"></a></li>
+                <li class="header-social__item"><a class="header-social__link header-social__link--inst" href="#"><img
+                        class="header-social__inst" src="img/header-social__link-inst.png" alt="inst logo"></a></li>
+                <li class="header-social__item"><a class="header-social__link header-social__link--vk" href="#"><img
+                        class="header-social__vk" src="img/header-social__link-vk.png" alt="vk logo"></a></li>
             </ul>
             <section class="opening-hours">
                 <h2 class="visually-hidden">Время работы</h2>
@@ -49,6 +55,27 @@
             </section>
         </div>
     </nav>
+    <section class="header-gallery">
+        <h2 class="visually-hidden">Галлерея товаров, описание, цены</h2>
+        <ul class="header-gallery__list">
+            <li class="header-gallery__item">
+                <h1 class="header-gallery__title">Ассорти шашлыков</h1>
+                <p class="header-gallery__paragraph">Шашлык из каре ягнёнка, мякоти ягнёнка, мякоти говядины, люля кебаб
+                    из баранины/говядины, курицы</p>
+                <div class="actual-price__wrapper">
+                    <p class="actual-price__new-price">1990 ₽</p>
+                    <p class="actual-price__mass-food">за 1250 г</p>
+                    <p class="actual-price__old-price">2260 ₽</p>
+                </div>
+                <img src="img/header-gallery__first-slide.png" alt="фото шашлыка по акции" width="288" height="223">
+            </li>
+        </ul>
+        <div class="header-gallery__btn-wrapper">
+            <button class="header-gallery__btn-first header-gallery__btn--active"></button>
+            <button class="header-gallery__btn-second"></button>
+            <button class="header-gallery__btn-third"></button>
+        </div>
+    </section>
 </header>
 </body>
 </html>
