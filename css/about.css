@@ -51,13 +51,16 @@
         line-height: 120%;
         color: #F8F8F8;
     }
-    .about-list{
+
+    .about-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        padding-bottom: 70px;
     }
-    .about-list__item{
+
+    .about-list__item {
         width: 136px;
         display: flex;
         flex-direction: column;
