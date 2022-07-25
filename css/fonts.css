@@ -1,24 +1,13 @@
 @font-face {
-    font-family: "Bebas", sans-serif;
+    font-family: "Bebas";
     src: url("../fonts/BEBASNEUE_REGULAR.woff2") format("woff2"),
     url("../fonts/BEBASNEUE_REGULAR.woff") format("woff"),
     url("../fonts/BEBASNEUE_REGULAR.ttf") format("ttf");
 }
 @font-face {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
     url("../fonts/RobotoCondensed-Regular.woff") format("woff"),
     url("../fonts/RobotoCondensed-Regular.ttf") format("ttf");
 }
 
-body{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 120%;
-}
-
-h1{
-    font-family: "Bebas", sans-serif ;
-}
