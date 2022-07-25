@@ -278,6 +278,7 @@
 
     .header-gallery__btn-wrapper {
         padding-top: 25px;
+        padding-bottom: 20px;
         display: flex;
         justify-content: center;
     }
