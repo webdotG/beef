@@ -18,8 +18,6 @@
         position: relative;
     }
 
-
-    /*------------------------------------------------------------------------header nav pop up------------------------*/
     .footer-nav__mobile-wrapper {
         width: 100%;
     }
@@ -67,8 +65,8 @@
         background-repeat: no-repeat;
     }
 
-    .opening-hours__first-paragraph,
-    .opening-hours__second-paragraph {
+    .footer-opening-hours__first-paragraph,
+    .footer-opening-hours__second-paragraph {
         margin: 0;
         font-family: "Roboto";
         font-style: normal;
@@ -77,11 +75,11 @@
         line-height: 16px;
     }
 
-    .quality-department {
+    .footer-quality-department {
         padding-top: 20px;
     }
 
-    .quality-department__link {
+    .footer-quality-department__link {
         font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
@@ -94,7 +92,7 @@
         text-fill-color: transparent;
     }
 
-    .quality-department__paragraph {
+    .footer-quality-department__paragraph {
         margin: 0;
         font-family: "Roboto";
         font-style: normal;
@@ -103,12 +101,12 @@
         line-height: 16px;
     }
 
-    .legal-adress {
+    .footer-legal-adress {
         padding-top: 40px;
     }
 
-    .legal-adress__paragraph-first,
-    .legal-adress__paragraph-second {
+    .footer-legal-adress__paragraph-first,
+    .footer-legal-adress__paragraph-second {
         margin: 0;
         font-family: "Roboto";
         font-style: normal;
@@ -117,12 +115,12 @@
         line-height: 16px;
     }
 
-    .rights-reserved {
+    .footer-rights-reserved {
         padding-top: 10px;
         padding-bottom: 50px;
     }
 
-    .rights-reserved__paragraph {
+    .footer-rights-reserved__paragraph {
         margin: 0;
         font-family: "Roboto";
         font-style: normal;
@@ -131,17 +129,5 @@
         line-height: 16px;
     }
 
-    .actual-price__new-price {
-        font-family: "Bebas";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 55px;
-        line-height: 100%;
-        background: linear-gradient(180deg, #A7641E 0%, #DAAC3A 57.08%, #B16B25 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
 
 }
