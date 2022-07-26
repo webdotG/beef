@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/find-us.css">
     <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/quality-control.css">
 </head>
 <body>
 <header>
@@ -264,6 +265,33 @@
             </li>
         </ul>
         <div class="reviwes__background-img"><img src="img/reviews__background--down.png"></div>
+    </section>
+    <section class="quality-control__wrapper">
+        <h2 class="quality-control__title">Контроль качества</h2>
+        <p class="quality-control__paragraph">Поделитесь с нами своим мнением. Расскажите ваши предложения, коменнтарии и отзывы</p>
+        <form class="quality-control-form">
+            <div class="quality-control-form__name-wrapper">
+                <label for="name" class="quality-control-form__name-label">Имя</label>
+                <input id="name" class="quality-control-form__name-input" name="name" type="text">
+            </div>
+            <div class="quality-control-form__phone-wrapper">
+                <label for="phone" class="quality-control-form__phone-label">Телефон</label>
+                <input id="phone" class="quality-control-form__phone-input" name="tel" type="tel"
+                       placeholder="+7 (999) 999-99-99">
+            </div>
+            <div class="quality-control-form__email-wrapper">
+                <label for="email" class="quality-control-form__email-label">Почта</label>
+                <input id="email" class="quality-control-form__email-input" name="email" type="email"
+                       placeholder="email@mail.ru">
+            </div>
+            <div class="quality-control-form__comment-wrapper">
+                <label for="comment" class="quality-control-form__comment-label">Комментарий</label>
+                <textarea id="comment" class="quality-control-form__comment-input" name="textComment"></textarea>
+            </div>
+            <div class="quality-control-form__submit-wrapper">
+                <button class="quality-control-form__submit" type="submit">Отправить</button>
+                <p class="quality-control-form__agreement">Нажимая кнопку "Отправить", вы принимаете<a class="quality-control-form__agreement-link text-gold" href="#">Политику Конфиденциальности</a></p>
+            </div>
     </section>
 </main>
 </body>

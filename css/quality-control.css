@@ -1,0 +1,110 @@
+@media (min-width: 320px) {
+
+    .quality-control__wrapper {
+        width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+    }
+
+    .quality-control__title {
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 100%;
+        color: #564A43;
+    }
+
+    .quality-control__paragraph {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #564A43;
+    }
+
+    /*-------------------------------------------------------------------------quality-control form 320px------------------------*/
+
+
+    .quality-control-form__name-wrapper,
+    .quality-control-form__phone-wrapper,
+    .quality-control-form__email-wrapper,
+    .quality-control-form__comment-wrapper{
+        margin-bottom: 13px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .quality-control-form__name-input,
+    .quality-control-form__phone-input,
+    .quality-control-form__email-input,
+    .quality-control-form__comment-input{
+        width: 288px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #E3E3E3;
+        border-radius: 2px;
+    }
+
+    .quality-control-form__name-label,
+    .quality-control-form__phone-label,
+    .quality-control-form__email-label,
+    .quality-control-form__comment-label{
+        padding-bottom: 6px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #564A43;
+    }
+
+    .quality-control-form__submit{
+        width: 288px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90.74deg, #FBBF0E 0%, #D99813 62.29%, #C58216 100%);
+        border-radius: 5px;
+        font-family: "Bebas";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+
+    .quality-control-form__email-input::placeholder,
+    .quality-control-form__phone-input::placeholder {
+        padding-left: 19px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #D1D1D1;
+    }
+
+    .quality-control-form__agreement{
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #564A43;
+        text-align: center;
+    }
+
+    .quality-control-form__agreement-link{
+
+    }
+
+
+
+}
